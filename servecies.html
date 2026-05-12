@@ -1,0 +1,65 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="letsplay.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - LET'S PLAY</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="logo" hight="120" width="120">
+        <h1>LET'S PLAY</h1>
+        <nav class="navigation">
+            <a href="home.html">Home</a>
+            <!--<a href="services.html">Services</a>
+            <a href="track-order.html">Track Order</a>
+            <a href="cancel-order.html">Cancel Order</a>-->
+        </nav>
+    </header>
+    
+    <div class="content-space">
+        <h1>Our Services</h1>
+        <div class="services-container">
+         
+            <div class="service-box" onclick="showMessage('Gaming console repairs and maintenance')">
+                <i class="ri-tools-fill service-icon"></i>
+                <h2>Repairs</h2>
+                <p>Fix your broken gaming consoles with expert care.</p>
+            </div>
+            
+     
+            <div class="service-box" onclick="showMessage('Retro gaming accessories are available')">
+                <i class="ri-gamepad-fill service-icon"></i>
+                <h2>Retro Accessories</h2>
+                <p>Explore our retro gaming accessories collection.</p>
+            </div>
+            
+           
+            <div class="service-box" onclick="showMessage('Customize your gaming consoles easily!')">
+                <i class="ri-brush-fill service-icon"></i>
+                <h2>Custom Mods</h2>
+                <p>Give your console a unique look and feel with custom mods.</p>
+            </div>
+
+            <div class="service-box" onclick="showMessage('Our support team is here to help 24/7.')">
+                <i class="ri-customer-service-2-fill service-icon"></i>
+                <h2>24/7 Support</h2>
+                <p>Reach out to us anytime for support and troubleshooting.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <small><i>Copyright © 2025 LET'S PLAY</i></small><br>
+        <a href="mailto:letsplay@example.com">letsplay@example.com</a>
+    </footer>
+    
+    <script>
+        function showMessage(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
